@@ -16,9 +16,8 @@ gtrans 是一个基于 Google Translate 的 vim 插件，可以翻译词语和�
 
     `pip3 install googletrans`
 
-- 取消对句子的长度没有限制
+- 取消对句子长度的限制
 
-- 翻译更为准确,
 
 ## Install 安装
 
