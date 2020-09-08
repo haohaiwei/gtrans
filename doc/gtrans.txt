@@ -1,0 +1,51 @@
+gtrans.txt          for Vim version 8.0 +python3           Last change: 2020/9/08
+
+================================================================================
+CONTENTS                                                        *gtrans-contents*
+
+1. Introduction                         |gtrans-intro|
+2. Options                              |gtrans-options|
+3. Commands                             |gtrans-commands|
+4. Authors                              |gtrans-authors|
+5. History                              |gtrans-history|
+
+================================================================================
+INTRODUCTION                                                    *gtrans-intro*
+
+vim-gtrans is a vim plugin which allow you to translate words or sentences
+by using Google Translate.
+
+================================================================================
+OPTIONS                                                         *gtrans-options*
+
+g:gtrans_output_language ~
+
+        description:                set output language
+        default:                    "zh-cn"
+
+================================================================================
+COMMANDS                                                        *gtrans-commands*
+
+:Gtrans ~
+
+        description:        translate the current word under the cursor
+
+:call Gtrans() ~
+
+        description:        translate all highlighted words or sentences,
+                        in visual mode, so it looks like:
+<
+                            :'<,'>,:call Gtrans()
+>
+
+================================================================================
+AUTHORS                                                         *gtrans-authors*
+CodeFalling
+
+================================================================================
+HISTORY                                                         *gtrans-history*
+
+0.1 ( 2020/9/8 )
+
+    initial release
+--------------------------------------------------------------------------------
