@@ -1,9 +1,9 @@
 if !exists('g:gtrans_input_language')
-    let g:gtrans_input_language = 'en'
+    let g:gtrans_input_language = 'auto'
 endif
 
 if !exists('g:gtrans_output_language')
-    let g:gtrans_output_language = 'zh_CN'
+    let g:gtrans_output_language = 'zh-cn'
 endif
 
 py3file <sfile>:p:h/gtrans.py
